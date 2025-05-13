@@ -10,6 +10,10 @@ on:
         description: "Run job 3"
         required: true
         type: boolean
+        My Name is Jeff:
+        description: "My Name is Jeff"
+        required: true
+        type: boolean
 
 jobs:
   job-1:
