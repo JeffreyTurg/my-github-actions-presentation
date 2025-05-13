@@ -10,7 +10,7 @@ on:
         description: "Run job 3"
         required: true
         type: boolean
-      My Name is Jeff:
+      Jeff-step:
         description: "My Name is Jeff"
         required: true
         type: string
@@ -23,7 +23,7 @@ jobs:
     steps:
       - name: Output for Job 1
       #  run: echo "Hello from Job 1. Run Job 3 equals ${{ github.event.inputs.run-job-3 }}"
-        run: echo "My name is Jeff equals ${{ github.event.inputs."My Name is Jeff" }}"
+        run: echo "My name is Jeff equals ${{ github.event.inputs.Jeff-step }}"
 
   job-2:
     name: Job 2
