@@ -23,6 +23,7 @@ jobs:
     steps:
       - name: Output for Job 1
         run: echo "Hello from Job 1. Run Job 3 equals ${{ github.event.inputs.run-job-3 }}"
+        run: echo "My name is Jeff equals ${{ github.event.inputs.My Name is Jeff }}"
 
   job-2:
     name: Job 2
