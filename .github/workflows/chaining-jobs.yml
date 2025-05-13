@@ -13,7 +13,8 @@ on:
       My Name is Jeff:
         description: "My Name is Jeff"
         required: true
-        type: boolean
+        type: string
+        default: "45"
 
 jobs:
   job-1:
